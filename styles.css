@@ -1,0 +1,41 @@
+/* Header section of the page */
+.flex-container1 {
+    display:flex;
+    background-color: gray;
+    gap: 30px;
+    flex: 1 1 250px;
+    height: auto;
+    justify-content: space-between;
+}
+
+/* This section controls the order of the header bar buttons. I bypassed the nav bar, possibly change that in the future */
+.flex-item1 {
+    order: 3;
+}
+
+.flex-item2 {
+
+    order: 1;
+}
+
+.flex-item3 {
+
+    order: 2;
+}
+
+.flex-item4 {
+    order: 4;
+}
+
+.flex-item5 {
+    order: 5;
+}
+
+/* Controls the link colors */
+.flex-item2 a:link, .flex-item3 a:link{
+    color: purple;
+}
+
+.flex-item2 a:visited, .flex-item3 a:visited {
+    color: black;
+}
