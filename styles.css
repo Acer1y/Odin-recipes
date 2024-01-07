@@ -39,3 +39,11 @@
 .flex-item2 a:visited, .flex-item3 a:visited {
     color: black;
 }
+
+/* Hero Text Section */
+.hero-text {
+    background-color: gray;
+    color: #F9FAF8;
+    font-size: 38px;
+}
+
