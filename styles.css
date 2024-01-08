@@ -73,6 +73,56 @@
 .schoolie-image {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: silver;
+}
+
+.schoolie-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order:1;
+
+}
+
+/* Side bar left of bass picture */
+.placeholder1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 0;
+
+}
+
+.placeholder2 {
+    order:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Body, above footer */
+.sub-window {
+    display:flex;
+    background-color: gray;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#sub-text{
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#sub-button2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
 }
