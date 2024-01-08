@@ -72,34 +72,26 @@
 
 .schoolie-image {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     background-color: silver;
 }
 
-.schoolie-pic{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    order:1;
-
+#schoolie-pic{
+    flex: 1;
+    order: 1;
 }
 
 /* Side bar left of bass picture */
-.placeholder1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#placeholder1 {
+    flex: 1; 
     order: 0;
-
 }
 
-.placeholder2 {
-    order:3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+#placeholder2 {
+    flex: 1;
+    order: 3;
 }
 
 /* Body, above footer */
@@ -126,3 +118,17 @@
     text-align: center;
     vertical-align: center;
 }
+
+/*Footer section here*/
+.footer-item {
+    display: flex;
+    background-color: black;
+    color: green;
+    justify-content: center;
+}
+
+#contact-button {
+    margin-left:20px
+}
+
+
