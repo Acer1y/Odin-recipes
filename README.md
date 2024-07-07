@@ -1,0 +1,1 @@
+This is another Odin Project assignment. I created a single static page that I later would use as inspiration for creating a fishing blog. This was nothing more than a test of concepts, using HTML and CSS. No javascript is used for this and since it was nothing more than a concept I never turned it into a github page.
